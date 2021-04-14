@@ -12,7 +12,6 @@ turtle.shape(image)
 
 # building lists of states and x and y coordinates from CSV file
 states_data = pandas.read_csv("50_states.csv")
-print(states_data)
 state_list = states_data["state"].to_list()
 state_x = states_data["x"].to_list()
 state_y = states_data["y"].to_list()
